@@ -1,0 +1,54 @@
+.sidebar {
+    background-color: #d15151b6;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    opacity: .9;
+}
+
+.content {
+    padding: 20px;
+    float: left;
+    width: 80%;
+}
+
+.movie-details {
+    text-align: center;
+}
+
+.movie-details img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #4ca7af;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1675156532088-02e7e0ddcc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlJTIwYmFja2dyb3VuZHMlMjBmb3IlMjBwY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60); text-align: left; color: rgb(0, 11, 128);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 948px;
+}
+
+.card-container {
+    align-items: start;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fit,300px);
+    justify-content: center;
+}
+
+h2 {
+    color: red;
+}
